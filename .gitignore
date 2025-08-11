@@ -126,3 +126,4 @@ CodeCoverage/
 TestResult.xml
 nunit-*.xml
 *.vsidx
+.vs/WorkSpaceSetUp/v17/DocumentLayout.json
