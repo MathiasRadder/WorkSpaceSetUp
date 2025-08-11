@@ -21,6 +21,7 @@
 *.userosscache
 *.suo
 *.sln.docstates
+/.vs
 
 # MonoDevelop
 *.userprefs
@@ -127,3 +128,4 @@ TestResult.xml
 nunit-*.xml
 *.vsidx
 .vs/WorkSpaceSetUp/v17/DocumentLayout.json
+WorkSpaceSetUp/SaveFolder/JsonSave.json
