@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TestFormsApp.Scripts;
+using WorkSpaceSetUp.Scripts.ErrorHandling;
 using WorkSpaceSetUp.Scripts.Model;
 using WorkSpaceSetUp.Scripts.ViewModel;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;

@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System.Text;
 using System.Collections.Generic;
+using WorkSpaceSetUp.Scripts.ErrorHandling;
 
 
 namespace WorkSpaceSetUp.Scripts.Model
@@ -20,7 +21,6 @@ namespace WorkSpaceSetUp.Scripts.Model
         private const string _loadDataOrigin = "Load data error.";
         private const string _writeDataOrigin = "Save data error.";
         ErrorTypes _errorType = ErrorTypes.Error;
-
         public string FileName { get {return _fileName; } set { _fileName = value; } }
         public string FilePath { get { return _filePath; } set { _filePath = value; } }
         #endregion
@@ -28,7 +28,6 @@ namespace WorkSpaceSetUp.Scripts.Model
         #region Initialize
         public ReadWriteFormData()
         {
-
             _jsonSettings = new JsonSerializerSettings
             {
                 Error = (sender, args) =>
@@ -74,7 +73,6 @@ namespace WorkSpaceSetUp.Scripts.Model
                     sb.AppendLine(line);
                     line = sr.ReadLine();
                 }
-
 
                 if (sb.Length > 0)
                     fileGroup = await Task.Run(() => JsonConvert.DeserializeObject<FileGroup[]>(sb.ToString(), _jsonSettings));
@@ -125,7 +123,6 @@ namespace WorkSpaceSetUp.Scripts.Model
             {
                 streamWriter?.Dispose();
             }
-
             return result;
         }
         #endregion

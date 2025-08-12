@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WorkSpaceSetUp.Scripts
+namespace WorkSpaceSetUp.Scripts.ErrorHandling
 {
     internal class FormErrorHandling
     {

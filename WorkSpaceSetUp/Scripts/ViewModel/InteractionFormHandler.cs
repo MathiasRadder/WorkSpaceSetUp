@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Windows.Forms;
+using WorkSpaceSetUp.Scripts.ErrorHandling;
 using WorkSpaceSetUp.Scripts.Model;
 
 

@@ -1,5 +1,5 @@
 using System.Windows.Forms;
-using WorkSpaceSetUp.Scripts;
+using WorkSpaceSetUp.Scripts.ErrorHandling;
 using WorkSpaceSetUp.Scripts.Model;
 using WorkSpaceSetUp.Scripts.ViewModel;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
@@ -26,23 +26,23 @@ namespace WorkSpaceSetUp
       
         private void SetUpEventHandlers()
         {
-            FileGroupList.Click += FileGroupList_Click;
-            FileGroupList.DoubleClick += FileGroupList_DoubleClick;
-            AddFileGroup_Button.Click += AddFileGroup_Button_Click;
-            RemoveFileGroup_Button.Click += RemoveFileGroup_Button_Click;
-            FileGroupName_TextBox.TextChanged += FileGroupBane_TextBox_ValueChanged;
-            FileGroupName_TextBox.LostFocus += FileGroupBane_TextBox_LostFocus;
-            AddFolderPath_Button.Click += AddFolderPath_Button_Click;
-            AddFilePath_Button.Click += AddFilePath_Button_Click;
-            RemovePath_Button.Click += RemovePath_Button_Click;
-            list_View.Click += FileGroupDataList_Click;
+            _fileGroupListBox.Click += FileGroupList_Click;
+            _fileGroupListBox.DoubleClick += FileGroupList_DoubleClick;
+            _addFileGroupButton.Click += AddFileGroup_Button_Click;
+            _removeFileGroupButton.Click += RemoveFileGroup_Button_Click;
+            _fileGroupNameTextBox.TextChanged += FileGroupBane_TextBox_ValueChanged;
+            _fileGroupNameTextBox.LostFocus += FileGroupBane_TextBox_LostFocus;
+            _addFolderPathButton.Click += AddFolderPath_Button_Click;
+            _addFilePathButton.Click += AddFilePath_Button_Click;
+            _removePathButton.Click += RemovePath_Button_Click;
+            _pathDataListView.Click += FileGroupDataList_Click;
 
            
         }
 
         private async void LoadSavedData()
         {
-            TResult<FileGroup[]?> tResult = await _interactionFormHandler.AsyncInitialize(FileGroupList.Items);
+            TResult<FileGroup[]?> tResult = await _interactionFormHandler.AsyncInitialize(_fileGroupListBox.Items);
             _errorHandling.HandleError(tResult);
         }
 
@@ -52,56 +52,56 @@ namespace WorkSpaceSetUp
         #region Events
         private void FileGroupList_Click(object? sender, System.EventArgs e)
         {
-            TResult<int> tResult = _interactionFormHandler.Select_FileGroupInList(FileGroupList, list_View.Items, FileGroupName_TextBox);
+            TResult<int> tResult = _interactionFormHandler.Select_FileGroupInList(_fileGroupListBox, _pathDataListView.Items, _fileGroupNameTextBox);
             _errorHandling.HandleError(tResult);
         }
         private void FileGroupList_DoubleClick(object? sender, System.EventArgs e)
         {
-            _interactionFormHandler.Open_FileGroupDataInList(FileGroupList);
+            _interactionFormHandler.Open_FileGroupDataInList(_fileGroupListBox);
         }
         private async void AddFileGroup_Button_Click(object? sender, EventArgs e)
         {
-            TResult<FileGroup[]?> tResult = await _interactionFormHandler.CreateAndAddFileGroup(FileGroupList, list_View, FileGroupName_TextBox);
+            TResult<FileGroup[]?> tResult = await _interactionFormHandler.CreateAndAddFileGroup(_fileGroupListBox, _pathDataListView, _fileGroupNameTextBox);
             _errorHandling.HandleError(tResult);
         }
 
         private async void RemoveFileGroup_Button_Click(object? sender, EventArgs e)
         {
-            TResult<FileGroup[]?> tResult = await _interactionFormHandler.RemoveSelectedFileGroup(FileGroupList, list_View);
+            TResult<FileGroup[]?> tResult = await _interactionFormHandler.RemoveSelectedFileGroup(_fileGroupListBox, _pathDataListView);
             _errorHandling.HandleError(tResult);
         }
 
         private void FileGroupBane_TextBox_ValueChanged(object? sender, EventArgs e)
         {
-            _interactionFormHandler.UpdateActiveFileGroupName(FileGroupList, FileGroupName_TextBox);
+            _interactionFormHandler.UpdateActiveFileGroupName(_fileGroupListBox, _fileGroupNameTextBox);
         }
 
         private async void FileGroupBane_TextBox_LostFocus(object? sender, EventArgs e)
         {
-            TResult<FileGroup[]?> tResult = await _interactionFormHandler.EndUpdateFileGroupName(FileGroupList, FileGroupName_TextBox);
+            TResult<FileGroup[]?> tResult = await _interactionFormHandler.EndUpdateFileGroupName(_fileGroupListBox, _fileGroupNameTextBox);
             _errorHandling.HandleError(tResult);
         }
 
         private async void AddFolderPath_Button_Click(object? sender, EventArgs e)
         {
-            TResult<FileGroup[]?> tResult = await _interactionFormHandler.AddFolderPathToFileGroup(FolderBrowserDialog1, FileGroupList, list_View);
+            TResult<FileGroup[]?> tResult = await _interactionFormHandler.AddFolderPathToFileGroup(_folderBrowserDialog, _fileGroupListBox, _pathDataListView);
             _errorHandling.HandleError(tResult);
         }
         private async void AddFilePath_Button_Click(object? sender, EventArgs e)
         {
-            TResult<FileGroup[]?> tResult = await _interactionFormHandler.AddFilePathToFileGroup(OpenFileDialog1, FileGroupList, list_View);
+            TResult<FileGroup[]?> tResult = await _interactionFormHandler.AddFilePathToFileGroup(_openFileDialog, _fileGroupListBox, _pathDataListView);
             _errorHandling.HandleError(tResult);
         }
 
         private void FileGroupDataList_Click(object? sender, EventArgs e)
         {
-            TResult<int> tResult  = _interactionFormHandler.Select_FileGroupPathInList(list_View);
+            TResult<int> tResult  = _interactionFormHandler.Select_FileGroupPathInList(_pathDataListView);
             _errorHandling.HandleError(tResult);
         }
 
         private async void RemovePath_Button_Click(object? sender, EventArgs e)
         {
-            TResult<FileGroup[]?> tResult = await _interactionFormHandler.RemoveSelectedPathOfFileGroup(list_View);
+            TResult<FileGroup[]?> tResult = await _interactionFormHandler.RemoveSelectedPathOfFileGroup(_pathDataListView);
             _errorHandling.HandleError(tResult);
         }
 

@@ -12,7 +12,6 @@ namespace WorkSpaceSetUp.Scripts.Model
         private int _fileGroupCreatedAmount = 0;
 
         private const string _defaultFileGroupName = "FileGroup";
-
         public string SelectedFileGroupName
         {
             get { return _fileGroupArray[_selectedFileGroupIndex].NameFileGroup; }
@@ -23,10 +22,7 @@ namespace WorkSpaceSetUp.Scripts.Model
         {
             get { return _fileGroupArray; }
             set { _fileGroupArray = value; }
-        }
-            
-
-
+        }          
         #endregion
 
         #region Initialize

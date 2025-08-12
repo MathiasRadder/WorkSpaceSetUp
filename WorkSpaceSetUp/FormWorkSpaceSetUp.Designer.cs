@@ -29,190 +29,190 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            splitContainer1 = new SplitContainer();
-            RemoveFileGroup_Button = new Button();
-            AddFileGroup_Button = new Button();
-            FileGroupListLabel = new Label();
-            FileGroupList = new ListBox();
-            list_View = new ListView();
-            CollumHeaderName = new ColumnHeader();
-            CollumHeaderType = new ColumnHeader();
-            CollumHeaderPath = new ColumnHeader();
-            AddFilePath_Button = new Button();
-            FileGroupName_TextBox = new TextBox();
-            RemovePath_Button = new Button();
-            AddFolderPath_Button = new Button();
-            OpenFileDialog1 = new OpenFileDialog();
-            FolderBrowserDialog1 = new FolderBrowserDialog();
-            error_Provider = new ErrorProvider(components);
-            ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
-            splitContainer1.Panel1.SuspendLayout();
-            splitContainer1.Panel2.SuspendLayout();
-            splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)error_Provider).BeginInit();
+            _splitContainer = new SplitContainer();
+            _removeFileGroupButton = new Button();
+            _addFileGroupButton = new Button();
+            _fileGroupListLabel = new Label();
+            _fileGroupListBox = new ListBox();
+            _pathDataListView = new ListView();
+            _columnHeaderName = new ColumnHeader();
+            _columnHeaderType = new ColumnHeader();
+            _columnHeaderPath = new ColumnHeader();
+            _addFilePathButton = new Button();
+            _fileGroupNameTextBox = new TextBox();
+            _removePathButton = new Button();
+            _addFolderPathButton = new Button();
+            _openFileDialog = new OpenFileDialog();
+            _folderBrowserDialog = new FolderBrowserDialog();
+            _errorProvider = new ErrorProvider(components);
+            ((System.ComponentModel.ISupportInitialize)_splitContainer).BeginInit();
+            _splitContainer.Panel1.SuspendLayout();
+            _splitContainer.Panel2.SuspendLayout();
+            _splitContainer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)_errorProvider).BeginInit();
             SuspendLayout();
             // 
             // splitContainer1
             // 
-            splitContainer1.Dock = DockStyle.Fill;
-            splitContainer1.Location = new Point(0, 0);
-            splitContainer1.Name = "splitContainer1";
+            _splitContainer.Dock = DockStyle.Fill;
+            _splitContainer.Location = new Point(0, 0);
+            _splitContainer.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
-            splitContainer1.Panel1.Controls.Add(RemoveFileGroup_Button);
-            splitContainer1.Panel1.Controls.Add(AddFileGroup_Button);
-            splitContainer1.Panel1.Controls.Add(FileGroupListLabel);
-            splitContainer1.Panel1.Controls.Add(FileGroupList);
+            _splitContainer.Panel1.Controls.Add(_removeFileGroupButton);
+            _splitContainer.Panel1.Controls.Add(_addFileGroupButton);
+            _splitContainer.Panel1.Controls.Add(_fileGroupListLabel);
+            _splitContainer.Panel1.Controls.Add(_fileGroupListBox);
             // 
             // splitContainer1.Panel2
             // 
-            splitContainer1.Panel2.Controls.Add(list_View);
-            splitContainer1.Panel2.Controls.Add(AddFilePath_Button);
-            splitContainer1.Panel2.Controls.Add(FileGroupName_TextBox);
-            splitContainer1.Panel2.Controls.Add(RemovePath_Button);
-            splitContainer1.Panel2.Controls.Add(AddFolderPath_Button);
-            splitContainer1.Size = new Size(800, 450);
-            splitContainer1.SplitterDistance = 375;
-            splitContainer1.TabIndex = 0;
+            _splitContainer.Panel2.Controls.Add(_pathDataListView);
+            _splitContainer.Panel2.Controls.Add(_addFilePathButton);
+            _splitContainer.Panel2.Controls.Add(_fileGroupNameTextBox);
+            _splitContainer.Panel2.Controls.Add(_removePathButton);
+            _splitContainer.Panel2.Controls.Add(_addFolderPathButton);
+            _splitContainer.Size = new Size(800, 450);
+            _splitContainer.SplitterDistance = 375;
+            _splitContainer.TabIndex = 0;
             // 
-            // RemoveFileGroup_Button
+            // _removeFileGroupButton
             // 
-            RemoveFileGroup_Button.Location = new Point(174, 336);
-            RemoveFileGroup_Button.Name = "RemoveFileGroup_Button";
-            RemoveFileGroup_Button.Size = new Size(94, 29);
-            RemoveFileGroup_Button.TabIndex = 3;
-            RemoveFileGroup_Button.Text = "Remove";
-            RemoveFileGroup_Button.UseVisualStyleBackColor = true;
+            _removeFileGroupButton.Location = new Point(174, 336);
+            _removeFileGroupButton.Name = "_removeFileGroupButton";
+            _removeFileGroupButton.Size = new Size(94, 29);
+            _removeFileGroupButton.TabIndex = 3;
+            _removeFileGroupButton.Text = "Remove";
+            _removeFileGroupButton.UseVisualStyleBackColor = true;
             // 
-            // AddFileGroup_Button
+            // _addFileGroupButton
             // 
-            AddFileGroup_Button.Location = new Point(12, 336);
-            AddFileGroup_Button.Name = "AddFileGroup_Button";
-            AddFileGroup_Button.Size = new Size(94, 29);
-            AddFileGroup_Button.TabIndex = 2;
-            AddFileGroup_Button.Text = "Add";
-            AddFileGroup_Button.UseVisualStyleBackColor = true;
+            _addFileGroupButton.Location = new Point(12, 336);
+            _addFileGroupButton.Name = "_addFileGroupButton";
+            _addFileGroupButton.Size = new Size(94, 29);
+            _addFileGroupButton.TabIndex = 2;
+            _addFileGroupButton.Text = "Add";
+            _addFileGroupButton.UseVisualStyleBackColor = true;
             // 
-            // FileGroupListLabel
+            // _fileGroupListLabel
             // 
-            FileGroupListLabel.AutoSize = true;
-            FileGroupListLabel.Location = new Point(12, 23);
-            FileGroupListLabel.Name = "FileGroupListLabel";
-            FileGroupListLabel.Size = new Size(103, 20);
-            FileGroupListLabel.TabIndex = 1;
-            FileGroupListLabel.Text = "File Group List";
+            _fileGroupListLabel.AutoSize = true;
+            _fileGroupListLabel.Location = new Point(12, 23);
+            _fileGroupListLabel.Name = "_fileGroupListLabel";
+            _fileGroupListLabel.Size = new Size(103, 20);
+            _fileGroupListLabel.TabIndex = 1;
+            _fileGroupListLabel.Text = "File Group List";
             // 
-            // FileGroupList
+            // _fileGroupListBox
             // 
-            FileGroupList.FormattingEnabled = true;
-            FileGroupList.Location = new Point(12, 46);
-            FileGroupList.Name = "FileGroupList";
-            FileGroupList.Size = new Size(256, 284);
-            FileGroupList.TabIndex = 0;
+            _fileGroupListBox.FormattingEnabled = true;
+            _fileGroupListBox.Location = new Point(12, 46);
+            _fileGroupListBox.Name = "_fileGroupListBox";
+            _fileGroupListBox.Size = new Size(256, 284);
+            _fileGroupListBox.TabIndex = 0;
             // 
-            // list_View
+            // _pathDataListView
             // 
-            list_View.Columns.AddRange(new ColumnHeader[] { CollumHeaderName, CollumHeaderType, CollumHeaderPath });
-            list_View.FullRowSelect = true;
-            list_View.Location = new Point(29, 46);
-            list_View.MultiSelect = false;
-            list_View.Name = "list_View";
-            list_View.Size = new Size(264, 284);
-            list_View.TabIndex = 8;
-            list_View.UseCompatibleStateImageBehavior = false;
-            list_View.View = View.Details;
+            _pathDataListView.Columns.AddRange(new ColumnHeader[] { _columnHeaderName, _columnHeaderType, _columnHeaderPath });
+            _pathDataListView.FullRowSelect = true;
+            _pathDataListView.Location = new Point(29, 46);
+            _pathDataListView.MultiSelect = false;
+            _pathDataListView.Name = "_pathDataListView";
+            _pathDataListView.Size = new Size(264, 284);
+            _pathDataListView.TabIndex = 8;
+            _pathDataListView.UseCompatibleStateImageBehavior = false;
+            _pathDataListView.View = View.Details;
             // 
-            // CollumHeaderName
+            // _columnHeaderName
             // 
-            CollumHeaderName.Text = "Name";
+            _columnHeaderName.Text = "Name";
             // 
-            // CollumHeaderType
+            // _columnHeaderType
             // 
-            CollumHeaderType.Text = "Type";
+            _columnHeaderType.Text = "Type";
             // 
-            // CollumHeaderPath
+            // _columnHeaderPath
             // 
-            CollumHeaderPath.Text = "Path";
-            CollumHeaderPath.Width = 180;
+            _columnHeaderPath.Text = "Path";
+            _columnHeaderPath.Width = 180;
             // 
-            // AddFilePath_Button
+            // _addFilePathButton
             // 
-            AddFilePath_Button.Location = new Point(29, 385);
-            AddFilePath_Button.Name = "AddFilePath_Button";
-            AddFilePath_Button.Size = new Size(94, 29);
-            AddFilePath_Button.TabIndex = 7;
-            AddFilePath_Button.Text = "Add File";
-            AddFilePath_Button.UseVisualStyleBackColor = true;
+            _addFilePathButton.Location = new Point(29, 385);
+            _addFilePathButton.Name = "_addFilePathButton";
+            _addFilePathButton.Size = new Size(94, 29);
+            _addFilePathButton.TabIndex = 7;
+            _addFilePathButton.Text = "Add File";
+            _addFilePathButton.UseVisualStyleBackColor = true;
             // 
-            // FileGroupName_TextBox
+            // _fileGroupNameTextBox
             // 
-            FileGroupName_TextBox.Location = new Point(29, 16);
-            FileGroupName_TextBox.Name = "FileGroupName_TextBox";
-            FileGroupName_TextBox.Size = new Size(125, 27);
-            FileGroupName_TextBox.TabIndex = 6;
+            _fileGroupNameTextBox.Location = new Point(29, 16);
+            _fileGroupNameTextBox.Name = "_fileGroupNameTextBox";
+            _fileGroupNameTextBox.Size = new Size(125, 27);
+            _fileGroupNameTextBox.TabIndex = 6;
             // 
-            // RemovePath_Button
+            // _removePathButton
             // 
-            RemovePath_Button.Location = new Point(191, 336);
-            RemovePath_Button.Name = "RemovePath_Button";
-            RemovePath_Button.Size = new Size(94, 29);
-            RemovePath_Button.TabIndex = 5;
-            RemovePath_Button.Text = "Remove";
-            RemovePath_Button.UseVisualStyleBackColor = true;
+            _removePathButton.Location = new Point(191, 336);
+            _removePathButton.Name = "_removePathButton";
+            _removePathButton.Size = new Size(94, 29);
+            _removePathButton.TabIndex = 5;
+            _removePathButton.Text = "Remove";
+            _removePathButton.UseVisualStyleBackColor = true;
             // 
-            // AddFolderPath_Button
+            // _addFolderPathButton
             // 
-            AddFolderPath_Button.Location = new Point(29, 336);
-            AddFolderPath_Button.Name = "AddFolderPath_Button";
-            AddFolderPath_Button.Size = new Size(94, 29);
-            AddFolderPath_Button.TabIndex = 4;
-            AddFolderPath_Button.Text = "Add Folder";
-            AddFolderPath_Button.UseVisualStyleBackColor = true;
+            _addFolderPathButton.Location = new Point(29, 336);
+            _addFolderPathButton.Name = "_addFolderPathButton";
+            _addFolderPathButton.Size = new Size(94, 29);
+            _addFolderPathButton.TabIndex = 4;
+            _addFolderPathButton.Text = "Add Folder";
+            _addFolderPathButton.UseVisualStyleBackColor = true;
             // 
-            // OpenFileDialog1
+            // _openFileDialog
             // 
-            OpenFileDialog1.FileName = "OpenFileDialog1";
+            _openFileDialog.FileName = "OpenFileDialog";
             // 
-            // error_Provider
+            // _errorProvider
             // 
-            error_Provider.ContainerControl = this;
+            _errorProvider.ContainerControl = this;
             // 
-            // Form1
+            // FormWorkSpaceSetUp
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(splitContainer1);
-            Name = "Form1";
+            Controls.Add(_splitContainer);
+            Name = "FormWorkSpaceSetUp";
             Text = "WorkSpaceSetUp";
-            splitContainer1.Panel1.ResumeLayout(false);
-            splitContainer1.Panel1.PerformLayout();
-            splitContainer1.Panel2.ResumeLayout(false);
-            splitContainer1.Panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
-            splitContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)error_Provider).EndInit();
+            _splitContainer.Panel1.ResumeLayout(false);
+            _splitContainer.Panel1.PerformLayout();
+            _splitContainer.Panel2.ResumeLayout(false);
+            _splitContainer.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)_splitContainer).EndInit();
+            _splitContainer.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)_errorProvider).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private SplitContainer splitContainer1;
-        private Label FileGroupListLabel;
-        private ListBox FileGroupList;
-        private Button RemoveFileGroup_Button;
-        private Button AddFileGroup_Button;
-        private TextBox FileGroupName_TextBox;
-        private Button RemovePath_Button;
-        private Button AddFolderPath_Button;
-        private OpenFileDialog OpenFileDialog1;
-        private FolderBrowserDialog FolderBrowserDialog1;
-        private Button AddFilePath_Button;
-        private ErrorProvider error_Provider;
-        private ListView list_View;
-        private ColumnHeader CollumHeaderName;
-        private ColumnHeader CollumHeaderType;
-        private ColumnHeader CollumHeaderPath;
+        private SplitContainer _splitContainer;
+        private Label _fileGroupListLabel;
+        private ListBox _fileGroupListBox;
+        private Button _removeFileGroupButton;
+        private Button _addFileGroupButton;
+        private TextBox _fileGroupNameTextBox;
+        private Button _removePathButton;
+        private Button _addFolderPathButton;
+        private OpenFileDialog _openFileDialog;
+        private FolderBrowserDialog _folderBrowserDialog;
+        private Button _addFilePathButton;
+        private ErrorProvider _errorProvider;
+        private ListView _pathDataListView;
+        private ColumnHeader _columnHeaderName;
+        private ColumnHeader _columnHeaderType;
+        private ColumnHeader _columnHeaderPath;
     }
 }

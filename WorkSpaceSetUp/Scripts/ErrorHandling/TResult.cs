@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 //I got this from https://stackoverflow.com/questions/77961808/how-should-i-return-the-result-from-a-service-use-case-class
 
 
-namespace WorkSpaceSetUp.Scripts
+namespace WorkSpaceSetUp.Scripts.ErrorHandling
 {
     public enum ErrorTypes
     {
