@@ -5,6 +5,7 @@ using WorkSpaceSetUp.Scripts.ErrorHandling;
 using WorkSpaceSetUp.Scripts.Model;
 
 
+
 namespace WorkSpaceSetUp.Scripts.ViewModel
 {
     public class InteractionFormHandler
@@ -112,60 +113,65 @@ namespace WorkSpaceSetUp.Scripts.ViewModel
 
        
 
-        public async Task<TResult<FileGroup[]?>> CreateAndAddFileGroup(ListBox listBox, ListView listView, TextBox textBox)
+        public async Task<TResult<FileGroup[]?>> CreateAndAddFileGroup(ListBox fileGroupListBox, ListView listView, System.Windows.Forms.TextBox textBox)
         {
+            Debug.Assert(fileGroupListBox != null);
             string? fileGroupName = _workSpaceModel.FileGroupMan.CreateFileGroup();
             if (string.IsNullOrEmpty(fileGroupName))
                 return TResult<FileGroup[]?>.Failure(new string[] { _errorMessageMaxSize }, System.Reflection.MethodBase.GetCurrentMethod()?.ToString(), _errorTypeOpenCloseFile);
 
-            listBox.Items.Add(fileGroupName);
-            listBox.SelectedIndex = listBox.Items.Count - 1;
-            Select_FileGroupInList(listBox, listView.Items, textBox);
+            fileGroupListBox.Items.Add(fileGroupName);
+            fileGroupListBox.SelectedIndex = fileGroupListBox.Items.Count - 1;
+            Select_FileGroupInList(fileGroupListBox, listView.Items, textBox);
 
             return await _workSpaceModel.WriteLocalData();
         }
 
      
-        public async Task<TResult<FileGroup[]?>> RemoveSelectedFileGroup(ListBox listBox, ListView listView)
+        public async Task<TResult<FileGroup[]?>> RemoveSelectedFileGroup(ListBox fileGroupListBox, ListView listView)
         {
-            if (listBox.SelectedIndex == -1)
+            Debug.Assert(fileGroupListBox != null);
+            if (fileGroupListBox.SelectedIndex == -1)
                 return TResult<FileGroup[]?>.Success(null);
 
-            listBox.Items.RemoveAt(listBox.SelectedIndex);
-            listBox.SelectedIndex = -1;
-            listView.Items.Clear();
+            fileGroupListBox.Items.RemoveAt(fileGroupListBox.SelectedIndex);
+            fileGroupListBox.SelectedIndex = -1;
+            listView?.Items.Clear();
             _workSpaceModel.FileGroupMan.RemoveSelectedFileGroup();
             return await _workSpaceModel.WriteLocalData();
         }
 
-        public void UpdateActiveFileGroupName(ListBox listBox, TextBox textBox)
+        public void UpdateActiveFileGroupName(ListBox fileGroupListBox, TextBox textBox)
         {
-            if (listBox.SelectedIndex == -1)
+            Debug.Assert(fileGroupListBox != null && textBox != null);
+            if (fileGroupListBox.SelectedIndex == -1)
                 return;
 
-            listBox.Items[listBox.SelectedIndex] = textBox.Text;
+            fileGroupListBox.Items[fileGroupListBox.SelectedIndex] = textBox.Text;
             _workSpaceModel.FileGroupMan.SelectedFileGroupName = textBox.Text;
         }
 
-        public async Task<TResult<FileGroup[]?>> EndUpdateFileGroupName(ListBox listBox, TextBox textBox)
+        public async Task<TResult<FileGroup[]?>> EndUpdateFileGroupName(ListBox fileGroupListBox, TextBox textBox)
         {
-            if (listBox.SelectedIndex == -1)
+            Debug.Assert(fileGroupListBox != null && textBox != null);
+            if (fileGroupListBox.SelectedIndex == -1)
                 return TResult<FileGroup[]?>.Success(null);
 
             string name = textBox.Text;
             if (string.IsNullOrEmpty(name))
                 name = _workSpaceModel.FileGroupMan.ResetDefaultFileGroupName();
 
-            listBox.Items[listBox.SelectedIndex] = name;
+            fileGroupListBox.Items[fileGroupListBox.SelectedIndex] = name;
             _workSpaceModel.FileGroupMan.SelectedFileGroupName = name;
 
             return await _workSpaceModel.WriteLocalData();
         }
 
       
-        public async Task<TResult<FileGroup[]?>> AddFolderPathToFileGroup(FolderBrowserDialog folderBrowserDialog, ListBox listBoxFileGroups, ListView listView)
+        public async Task<TResult<FileGroup[]?>> AddFolderPathToFileGroup(FolderBrowserDialog folderBrowserDialog, ListBox fileGroupListBox, ListView listView)
         {
-            if (listBoxFileGroups.SelectedIndex == -1)
+            Debug.Assert(fileGroupListBox != null && folderBrowserDialog != null);
+            if (fileGroupListBox.SelectedIndex == -1)
                 return TResult<FileGroup[]?>.Success(null);
 
             string type = _workSpaceModel.FolderTypeName;
@@ -182,9 +188,10 @@ namespace WorkSpaceSetUp.Scripts.ViewModel
             return await _workSpaceModel.WriteLocalData();
         }
 
-        public async Task<TResult<FileGroup[]?>> AddFilePathToFileGroup(OpenFileDialog openFileDialog, ListBox listBoxFileGroups, ListView listView)
+        public async Task<TResult<FileGroup[]?>> AddFilePathToFileGroup(OpenFileDialog openFileDialog, ListBox fileGroupListBox, ListView listView)
         {
-            if (listBoxFileGroups.SelectedIndex == -1)
+            Debug.Assert(fileGroupListBox != null && openFileDialog != null);
+            if (fileGroupListBox.SelectedIndex == -1)
                 return TResult<FileGroup[]?>.Success(null);
             string type = _workSpaceModel.FileTypeName;
             DialogResult result = openFileDialog.ShowDialog();
@@ -202,6 +209,7 @@ namespace WorkSpaceSetUp.Scripts.ViewModel
 
         public async Task<TResult<FileGroup[]?>> RemoveSelectedPathOfFileGroup(ListView listView)
         {
+            Debug.Assert(listView != null);
             if (listView.SelectedIndices.Count == 0 || listView.SelectedIndices[0] == -1)
                 return TResult<FileGroup[]?>.Success(null);
 
@@ -214,6 +222,7 @@ namespace WorkSpaceSetUp.Scripts.ViewModel
 
         public TResult<int> Select_FileGroupPathInList(ListView listView)
         {
+            Debug.Assert(listView != null);
             if (string.IsNullOrEmpty(listView?.SelectedItems[0]?.ToString()))
                 return TResult<int>.Success(0);
 
@@ -231,6 +240,7 @@ namespace WorkSpaceSetUp.Scripts.ViewModel
         #region PrivateMethods     
         private void AddNewPath(string folderName,string path, string type, ListView listView)
         {
+            Debug.Assert(listView != null);
             _workSpaceModel.FileGroupMan.AddPathToSelectedFileGroup(folderName, path, type);
             ListViewItem listItem = new(new string[] { folderName, type, path });
             listView.Items.Add(listItem);
