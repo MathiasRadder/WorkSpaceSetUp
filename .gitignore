@@ -128,5 +128,4 @@ TestResult.xml
 nunit-*.xml
 *.vsidx
 .vs/WorkSpaceSetUp/v17/DocumentLayout.json
-WorkSpaceSetUp/SaveFolder/JsonSave.json
-WorkSpaceSetUp/SaveFolder/JsonSave.json
+JsonSave.json
