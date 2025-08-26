@@ -15,7 +15,7 @@ On this project I did my best to apply the MVVM structure, this also helped in u
 
 ## Unit testing
 My first time unit testing was a bit complex due to the project using Windows-form, all the testing was done through the view-model 
-InteractionHandler class). So that I can test as accurately as I can. This way I also avoided interacting with the error handler, so that no message boxes would pop up.
+(InteractionHandler class). So that I can test as accurately as I can. This way I also avoided interacting with the error handler, so that no message boxes would pop up.
 
 <img src="https://github.com/user-attachments/assets/01f04413-6193-492d-8fa4-38630e9a83b2" width="500">
 
