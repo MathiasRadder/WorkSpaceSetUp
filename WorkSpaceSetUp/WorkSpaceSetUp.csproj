@@ -49,11 +49,6 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
-	<ItemGroup>
-		<PackageReference Include="nUnit3TestAdapter" Version="4.6.0" />
-		<PackageReference Include="nUnit.Analyzers" Version="4.9.2" />
-	</ItemGroup>
-
   <ProjectExtensions><VisualStudio><UserProperties savefolder_4jsonsave_1json__JsonSchema="jason" /></VisualStudio></ProjectExtensions>
 
 </Project>

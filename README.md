@@ -8,8 +8,7 @@ This project was created to learn .NET, Windows-form and unit testing.
 In a plain manner this project uses a container and gives you the option to save paths, name those groups of paths and save it on a JSON file. When clicking on the group name, all the path files and folders open.
 
 ## MVVM structure
-On this project I did my best to apply the MVVM structure, this also helped in unit testing. The main focus was the local data separation. 
-
+On this project I did my best to apply the MVVM structure. The reason why I choose MVVM pattern rather than any other is due to its separation and to give a clearer view on how to do unit testing. Because this is my first project that I applied unit testing in., this also helped in unit testing.
 <img src="https://github.com/user-attachments/assets/76d9d642-547b-47b9-bb89-3bf79e9d032e" width="500">
 
 
@@ -25,5 +24,23 @@ Error handling was unique in this project and I did not want it to respond incor
 <img src="https://github.com/user-attachments/assets/f3232ebe-75eb-40d4-ae66-2cb836a4a271" width="500">
 
 
+## Folder structure
+
+I separated each folder, by purpose of the MVVM pattern.
+
+- View folder: This is where the Windows Form is, so the UI,  the events get attached to the ViewMdodel and the error handling takes place.
+- ViewModel folder: It is the glue that uses the model data to interact and act accordingly to the view request, while separating the model from the view.
+- Model folder: The model is the local data, file data, and logic of the purpose of the application under the hood, that can be influenced by the view-model
+- Error handling folder: This folder has two purposes: to receive data of a potential error or issue that occurred in the application and give the user multiple options to act upon it.
+
+
 ## Extra info
 In the FileGroup and FileGroupManager class, I added a unique way of using a container and sorting it. This was to learn new techniques and use more algorithms. 
+
+## Version and packages:
+- This windows form project is using version .NET 9
+- Package Newtonsoft.Json version 13.0.3
+- Package Microsoft.NET.Test.Sdk version 17.12.0
+- Package MSTest version 3.6.4
+- Package MSTest.TestAdapter version 3.6.4
+- Package MSTest.TestFramework version 3.6.4
