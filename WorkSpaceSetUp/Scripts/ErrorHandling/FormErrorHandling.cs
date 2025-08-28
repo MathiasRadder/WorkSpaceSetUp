@@ -40,6 +40,7 @@ namespace WorkSpaceSetUp.Scripts.ErrorHandling
                     if (errorDialogResult.Value == DialogResult.Abort)
                     {
                         Application.Exit();
+                        Environment.Exit(0);
                     }
                     else if(errorDialogResult.Value == DialogResult.Retry)
                     {
@@ -49,6 +50,7 @@ namespace WorkSpaceSetUp.Scripts.ErrorHandling
                         break;
                 case ErrorTypes.Fatal:
                     Application.Exit();
+                    Environment.Exit(0);
                     break;
                 case ErrorTypes.None:
                 case ErrorTypes.Warning:

@@ -33,14 +33,23 @@ namespace WorkSpaceSetUp.Scripts.Model
                     args.ErrorContext.Handled = true;
                 }
             };
+           
 
-            _fileName = Properties.Settings.Default.SaveFileName;
-        
+
+#if RELEASE
+            _filePath = Path.Combine(Directory.GetParent(System.Environment.ProcessPath).FullName, _folderName);
+            if (!Directory.Exists(_filePath))
+            {
+                Directory.CreateDirectory(_filePath);
+            }
+#else
             string workingDirectory = Environment.CurrentDirectory;
             string? projectDirectory = Directory.GetParent(workingDirectory)?.Parent?.Parent?.FullName;
             _filePath = Path.Combine(projectDirectory, _folderName);
+#endif
+
         }
-        #endregion
+#endregion
 
         #region CallMethods
         public async Task<TResult<FileGroup[]?>> LoadFormData()
@@ -53,7 +62,7 @@ namespace WorkSpaceSetUp.Scripts.Model
             try
             {
                 string pathWithName = Path.Combine(_filePath,
-                 _fileName + _fileType);
+                _fileName + _fileType);
                 if (File.Exists(pathWithName))
                 {
                     sr = new StreamReader(pathWithName);
