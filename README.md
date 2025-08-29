@@ -2,7 +2,7 @@
 A Windows-form project that sets up your desired work space, for work or for relaxing. So that you don’t have to open each file or folder one by one.
 
 ## why?
-This project was created to learn .NET, Windows-form and unit testing. 
+This project was created to learn .NET, Windows-form and unit testing. This also included showing and learning new techniques from C# and .NET. Which means that some classes are done differently not because I did not know how, but rather because it has been done already in the project and I wanted to focus on learning and applying a new skill.
 
 ## What?
 In a plain manner this project uses a container and gives you the option to save paths, name those groups of paths and save it on a JSON file. When clicking on the group name, all the path files and folders open.
