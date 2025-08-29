@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System.Text;
 using WorkSpaceSetUp.Scripts.ErrorHandling;
+using WorkSpaceSetUp.Properties;
 
 
 namespace WorkSpaceSetUp.Scripts.Model
@@ -33,9 +34,9 @@ namespace WorkSpaceSetUp.Scripts.Model
                     args.ErrorContext.Handled = true;
                 }
             };
-           
 
-
+            FileName = Properties.Settings.Default.SaveFileName;
+            
 #if RELEASE
             _filePath = Path.Combine(Directory.GetParent(System.Environment.ProcessPath).FullName, _folderName);
             if (!Directory.Exists(_filePath))
