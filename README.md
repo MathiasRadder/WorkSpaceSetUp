@@ -44,3 +44,4 @@ In the FileGroup and FileGroupManager class, I added a unique way of using a con
 - Package MSTest version 3.6.4
 - Package MSTest.TestAdapter version 3.6.4
 - Package MSTest.TestFramework version 3.6.4
+- Package Microsoft.CodeCoverage version 17.14.1

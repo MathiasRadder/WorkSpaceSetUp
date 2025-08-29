@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<results>
+  <modules>
+    <module id="605F56E0A5DEF2489DE38F80833ED3F63BA479F2" name="TestFormsApp.dll" path="TestFormsApp.dll" block_coverage="97.05" line_coverage="97.74" blocks_covered="329" blocks_not_covered="10" lines_covered="303" lines_partially_covered="2" lines_not_covered="5">
+      <functions>
+        <function id="8284" token="0x6000003" name="ClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)" namespace="WorkSpaceSetUp.Scripts" type_name="TestCreateRemoveInteractionForm" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="3" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="33" end_line="33" start_column="9" end_column="10" covered="yes" />
+            <range source_id="1" start_line="34" end_line="34" start_column="13" end_column="59" covered="yes" />
+            <range source_id="1" start_line="35" end_line="35" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="8608" token="0x6000007" name="OpenFileGroupData_Strength_Test(string[], int, string[], int)" namespace="WorkSpaceSetUp.Scripts" type_name="TestCreateRemoveInteractionForm" block_coverage="100.00" line_coverage="100.00" blocks_covered="8" blocks_not_covered="0" lines_covered="7" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="135" end_line="135" start_column="9" end_column="10" covered="yes" />
+            <range source_id="1" start_line="136" end_line="136" start_column="13" end_column="67" covered="yes" />
+            <range source_id="1" start_line="137" end_line="137" start_column="13" end_column="98" covered="yes" />
+            <range source_id="1" start_line="138" end_line="138" start_column="13" end_column="168" covered="yes" />
+            <range source_id="1" start_line="140" end_line="140" start_column="13" end_column="102" covered="yes" />
+            <range source_id="1" start_line="142" end_line="142" start_column="13" end_column="46" covered="yes" />
+            <range source_id="1" start_line="143" end_line="143" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="8694" token="0x6000009" name="ClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)" namespace="WorkSpaceSetUp.Scripts" type_name="TestInitInteractionForm" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="3" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="32" end_line="32" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="33" end_line="33" start_column="13" end_column="59" covered="yes" />
+            <range source_id="2" start_line="34" end_line="34" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="8708" token="0x600000a" name="AsyncInitialize_Throw_Test(object[], string)" namespace="WorkSpaceSetUp.Scripts" type_name="TestInitInteractionForm" block_coverage="100.00" line_coverage="100.00" blocks_covered="7" blocks_not_covered="0" lines_covered="6" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="44" end_line="44" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="45" end_line="45" start_column="13" end_column="67" covered="yes" />
+            <range source_id="2" start_line="46" end_line="46" start_column="13" end_column="110" covered="yes" />
+            <range source_id="2" start_line="47" end_line="47" start_column="13" end_column="101" covered="yes" />
+            <range source_id="2" start_line="49" end_line="49" start_column="13" end_column="125" covered="yes" />
+            <range source_id="2" start_line="50" end_line="50" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9082" token="0x600000f" name="ClassInitialize(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext)" namespace="WorkSpaceSetUp.Scripts" type_name="TestSelectInteractionForm" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="3" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="3" start_line="33" end_line="33" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="34" end_line="34" start_column="13" end_column="59" covered="yes" />
+            <range source_id="3" start_line="35" end_line="35" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9096" token="0x6000010" name="SelectFileGroupInList_Success_Test(int, string[], string, string[], int, int, int[])" namespace="WorkSpaceSetUp.Scripts" type_name="TestSelectInteractionForm" block_coverage="100.00" line_coverage="100.00" blocks_covered="16" blocks_not_covered="0" lines_covered="14" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="3" start_line="47" end_line="47" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="48" end_line="48" start_column="13" end_column="67" covered="yes" />
+            <range source_id="3" start_line="49" end_line="49" start_column="13" end_column="88" covered="yes" />
+            <range source_id="3" start_line="49" end_line="49" start_column="89" end_column="90" covered="yes" />
+            <range source_id="3" start_line="50" end_line="50" start_column="13" end_column="114" covered="yes" />
+            <range source_id="3" start_line="52" end_line="52" start_column="13" end_column="97" covered="yes" />
+            <range source_id="3" start_line="53" end_line="53" start_column="13" end_column="60" covered="yes" />
+            <range source_id="3" start_line="54" end_line="54" start_column="20" end_column="51" covered="yes" />
+            <range source_id="3" start_line="55" end_line="55" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="56" end_line="56" start_column="17" end_column="138" covered="yes" />
+            <range source_id="3" start_line="58" end_line="58" start_column="17" end_column="126" covered="yes" />
+            <range source_id="3" start_line="59" end_line="59" start_column="17" end_column="50" covered="yes" />
+            <range source_id="3" start_line="60" end_line="60" start_column="17" end_column="27" covered="yes" />
+            <range source_id="3" start_line="61" end_line="61" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="63" end_line="63" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9276" token="0x6000011" name="SelectFileGroupInList_Failure_Test(int, object[], System.Windows.Forms.TextBox, string[], int, int, int[])" namespace="WorkSpaceSetUp.Scripts" type_name="TestSelectInteractionForm" block_coverage="100.00" line_coverage="100.00" blocks_covered="13" blocks_not_covered="0" lines_covered="12" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="3" start_line="70" end_line="70" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="71" end_line="71" start_column="13" end_column="67" covered="yes" />
+            <range source_id="3" start_line="72" end_line="72" start_column="13" end_column="97" covered="yes" />
+            <range source_id="3" start_line="73" end_line="73" start_column="13" end_column="60" covered="yes" />
+            <range source_id="3" start_line="74" end_line="74" start_column="20" end_column="51" covered="yes" />
+            <range source_id="3" start_line="75" end_line="75" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="76" end_line="76" start_column="17" end_column="138" covered="yes" />
+            <range source_id="3" start_line="77" end_line="77" start_column="17" end_column="129" covered="yes" />
+            <range source_id="3" start_line="78" end_line="78" start_column="17" end_column="50" covered="yes" />
+            <range source_id="3" start_line="79" end_line="79" start_column="17" end_column="27" covered="yes" />
+            <range source_id="3" start_line="80" end_line="80" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="81" end_line="81" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9412" token="0x6000012" name="SelectPathInList_Success_Test(string[], int, int, int[])" namespace="WorkSpaceSetUp.Scripts" type_name="TestSelectInteractionForm" block_coverage="100.00" line_coverage="100.00" blocks_covered="14" blocks_not_covered="0" lines_covered="13" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="3" start_line="89" end_line="89" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="90" end_line="90" start_column="13" end_column="67" covered="yes" />
+            <range source_id="3" start_line="91" end_line="91" start_column="13" end_column="60" covered="yes" />
+            <range source_id="3" start_line="92" end_line="92" start_column="20" end_column="51" covered="yes" />
+            <range source_id="3" start_line="93" end_line="93" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="94" end_line="94" start_column="17" end_column="127" covered="yes" />
+            <range source_id="3" start_line="95" end_line="95" start_column="17" end_column="94" covered="yes" />
+            <range source_id="3" start_line="96" end_line="96" start_column="17" end_column="156" covered="yes" />
+            <range source_id="3" start_line="98" end_line="98" start_column="17" end_column="100" covered="yes" />
+            <range source_id="3" start_line="99" end_line="99" start_column="17" end_column="50" covered="yes" />
+            <range source_id="3" start_line="100" end_line="100" start_column="17" end_column="27" covered="yes" />
+            <range source_id="3" start_line="101" end_line="101" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="102" end_line="102" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9560" token="0x6000013" name="SelectPathInList_Failure_Test(string[], int, int, int[])" namespace="WorkSpaceSetUp.Scripts" type_name="TestSelectInteractionForm" block_coverage="100.00" line_coverage="100.00" blocks_covered="11" blocks_not_covered="0" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="3" start_line="110" end_line="110" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="111" end_line="111" start_column="13" end_column="67" covered="yes" />
+            <range source_id="3" start_line="112" end_line="112" start_column="13" end_column="60" covered="yes" />
+            <range source_id="3" start_line="113" end_line="113" start_column="20" end_column="51" covered="yes" />
+            <range source_id="3" start_line="114" end_line="114" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="115" end_line="115" start_column="17" end_column="127" covered="yes" />
+            <range source_id="3" start_line="116" end_line="116" start_column="17" end_column="100" covered="yes" />
+            <range source_id="3" start_line="117" end_line="117" start_column="17" end_column="50" covered="yes" />
+            <range source_id="3" start_line="118" end_line="118" start_column="17" end_column="27" covered="yes" />
+            <range source_id="3" start_line="119" end_line="119" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="120" end_line="120" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9672" token="0x6000014" name="EndUpdateFileGroupName_Strength_Test(string[], int, string, string)" namespace="WorkSpaceSetUp.Scripts" type_name="TestSelectInteractionForm" block_coverage="100.00" line_coverage="100.00" blocks_covered="15" blocks_not_covered="0" lines_covered="16" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="3" start_line="129" end_line="129" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="130" end_line="130" start_column="13" end_column="67" covered="yes" />
+            <range source_id="3" start_line="131" end_line="134" start_column="13" end_column="50" covered="yes" />
+            <range source_id="3" start_line="135" end_line="135" start_column="13" end_column="156" covered="yes" />
+            <range source_id="3" start_line="137" end_line="137" start_column="13" end_column="101" covered="yes" />
+            <range source_id="3" start_line="138" end_line="138" start_column="13" end_column="87" covered="yes" />
+            <range source_id="3" start_line="139" end_line="139" start_column="13" end_column="33" covered="yes" />
+            <range source_id="3" start_line="141" end_line="145" start_column="13" end_column="41" covered="yes" />
+            <range source_id="3" start_line="146" end_line="146" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9860" token="0x6000016" name="DummyForm(System.Windows.Forms.ListView)" namespace="TestFormsApp.Scripts" type_name="DummyForm" block_coverage="100.00" line_coverage="100.00" blocks_covered="6" blocks_not_covered="0" lines_covered="6" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="16" end_line="16" start_column="9" end_column="44" covered="yes" />
+            <range source_id="4" start_line="17" end_line="17" start_column="9" end_column="10" covered="yes" />
+            <range source_id="4" start_line="20" end_line="20" start_column="13" end_column="58" covered="yes" />
+            <range source_id="4" start_line="21" end_line="21" start_column="13" end_column="40" covered="yes" />
+            <range source_id="4" start_line="22" end_line="22" start_column="13" end_column="41" covered="yes" />
+            <range source_id="4" start_line="23" end_line="23" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9900" token="0x6000017" name="get_FolderPath()" namespace="TestFormsApp.Scripts" type_name="TestHelper" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="5" start_line="23" end_line="23" start_column="40" end_column="41" covered="yes" />
+            <range source_id="5" start_line="23" end_line="23" start_column="42" end_column="59" covered="yes" />
+            <range source_id="5" start_line="23" end_line="23" start_column="60" end_column="61" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9924" token="0x6000018" name="get_FileType()" namespace="TestFormsApp.Scripts" type_name="TestHelper" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="5" start_line="24" end_line="24" start_column="38" end_column="39" covered="yes" />
+            <range source_id="5" start_line="24" end_line="24" start_column="40" end_column="57" covered="yes" />
+            <range source_id="5" start_line="24" end_line="24" start_column="58" end_column="59" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9948" token="0x6000019" name="InstanceTestHelper()" namespace="TestFormsApp.Scripts" type_name="TestHelper" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="3" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="5" start_line="29" end_line="29" start_column="9" end_column="10" covered="yes" />
+            <range source_id="5" start_line="30" end_line="30" start_column="13" end_column="29" covered="yes" />
+            <range source_id="5" start_line="31" end_line="31" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9972" token="0x600001a" name="TestHelper()" namespace="TestFormsApp.Scripts" type_name="TestHelper" block_coverage="86.21" line_coverage="90.91" blocks_covered="25" blocks_not_covered="4" lines_covered="20" lines_partially_covered="1" lines_not_covered="1">
+          <ranges>
+            <range source_id="5" start_line="16" end_line="16" start_column="9" end_column="49" covered="yes" />
+            <range source_id="5" start_line="20" end_line="20" start_column="9" end_column="52" covered="yes" />
+            <range source_id="5" start_line="35" end_line="35" start_column="9" end_column="29" covered="yes" />
+            <range source_id="5" start_line="36" end_line="36" start_column="9" end_column="10" covered="yes" />
+            <range source_id="5" start_line="37" end_line="37" start_column="13" end_column="68" covered="yes" />
+            <range source_id="5" start_line="38" end_line="38" start_column="13" end_column="104" covered="partial" />
+            <range source_id="5" start_line="39" end_line="39" start_column="13" end_column="69" covered="yes" />
+            <range source_id="5" start_line="41" end_line="41" start_column="13" end_column="37" covered="yes" />
+            <range source_id="5" start_line="42" end_line="42" start_column="13" end_column="47" covered="yes" />
+            <range source_id="5" start_line="44" end_line="44" start_column="13" end_column="81" covered="yes" />
+            <range source_id="5" start_line="45" end_line="45" start_column="13" end_column="43" covered="yes" />
+            <range source_id="5" start_line="46" end_line="46" start_column="17" end_column="53" covered="yes" />
+            <range source_id="5" start_line="48" end_line="48" start_column="17" end_column="24" covered="no" />
+            <range source_id="5" start_line="50" end_line="50" start_column="13" end_column="58" covered="yes" />
+            <range source_id="5" start_line="51" end_line="51" start_column="13" end_column="42" covered="yes" />
+            <range source_id="5" start_line="53" end_line="53" start_column="13" end_column="14" covered="yes" />
+            <range source_id="5" start_line="54" end_line="54" start_column="17" end_column="38" covered="yes" />
+            <range source_id="5" start_line="55" end_line="55" start_column="17" end_column="38" covered="yes" />
+            <range source_id="5" start_line="56" end_line="56" start_column="13" end_column="14" covered="yes" />
+            <range source_id="5" start_line="52" end_line="52" start_column="13" end_column="33" covered="yes" />
+            <range source_id="5" start_line="57" end_line="57" start_column="13" end_column="55" covered="yes" />
+            <range source_id="5" start_line="58" end_line="58" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="10192" token="0x600001b" name="CreateDefaultFileGroup(string[])" namespace="TestFormsApp.Scripts" type_name="TestHelper" block_coverage="100.00" line_coverage="100.00" blocks_covered="6" blocks_not_covered="0" lines_covered="8" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="5" start_line="64" end_line="64" start_column="9" end_column="10" covered="yes" />
+            <range source_id="5" start_line="65" end_line="65" start_column="13" end_column="74" covered="yes" />
+            <range source_id="5" start_line="66" end_line="66" start_column="18" end_column="27" covered="yes" />
+            <range source_id="5" start_line="67" end_line="67" start_column="13" end_column="14" covered="yes" />
+            <range source_id="5" start_line="68" end_line="68" start_column="17" end_column="65" covered="yes" />
+            <range source_id="5" start_line="69" end_line="69" start_column="13" end_column="14" covered="yes" />
+            <range source_id="5" start_line="66" end_line="66" start_column="51" end_column="54" covered="yes" />
+            <range source_id="5" start_line="66" end_line="66" start_column="29" end_column="49" covered="yes" />
+            <range source_id="5" start_line="70" end_line="70" start_column="13" end_column="35" covered="yes" />
+            <range source_id="5" start_line="71" end_line="71" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="10252" token="0x600001c" name="CreateListBox(object[], int)" namespace="TestFormsApp.Scripts" type_name="TestHelper" block_coverage="90.91" line_coverage="85.71" blocks_covered="10" blocks_not_covered="1" lines_covered="12" lines_partially_covered="0" lines_not_covered="2">
+          <ranges>
+            <range source_id="5" start_line="74" end_line="74" start_column="9" end_column="10" covered="yes" />
+            <range source_id="5" start_line="75" end_line="75" start_column="13" end_column="44" covered="yes" />
+            <range source_id="5" start_line="76" end_line="76" start_column="13" end_column="37" covered="yes" />
+            <range source_id="5" start_line="77" end_line="77" start_column="13" end_column="14" covered="no" />
+            <range source_id="5" start_line="78" end_line="78" start_column="17" end_column="40" covered="no" />
+            <range source_id="5" start_line="80" end_line="80" start_column="13" end_column="45" covered="yes" />
+            <range source_id="5" start_line="81" end_line="81" start_column="13" end_column="57" covered="yes" />
+            <range source_id="5" start_line="82" end_line="82" start_column="13" end_column="32" covered="yes" />
+            <range source_id="5" start_line="83" end_line="83" start_column="13" end_column="14" covered="yes" />
+            <range source_id="5" start_line="84" end_line="84" start_column="17" end_column="58" covered="yes" />
+            <range source_id="5" start_line="85" end_line="85" start_column="17" end_column="70" covered="yes" />
+            <range source_id="5" start_line="86" end_line="86" start_column="13" end_column="14" covered="yes" />
+            <range source_id="5" start_line="87" end_line="87" start_column="13" end_column="36" covered="yes" />
+            <range source_id="5" start_line="88" end_line="88" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="10336" token="0x600001d" name="CreateListBoxObjCollection(object[])" namespace="TestFormsApp.Scripts" type_name="TestHelper" block_coverage="100.00" line_coverage="100.00" blocks_covered="6" blocks_not_covered="0" lines_covered="7" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="5" start_line="91" end_line="91" start_column="9" end_column="10" covered="yes" />
+            <range source_id="5" start_line="92" end_line="92" start_column="13" end_column="49" covered="yes" />
+            <range source_id="5" start_line="93" end_line="93" start_column="13" end_column="60" covered="yes" />
+            <range source_id="5" start_line="94" end_line="94" start_column="13" end_column="34" covered="yes" />
+            <range source_id="5" start_line="95" end_line="95" start_column="17" end_column="85" covered="yes" />
+            <range source_id="5" start_line="97" end_line="97" start_column="13" end_column="34" covered="yes" />
+            <range source_id="5" start_line="98" end_line="98" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="10380" token="0x600001e" name="InitListView(string[], int, int, int[], System.Windows.Forms.ListView, System.Windows.Forms.Form)" namespace="TestFormsApp.Scripts" type_name="TestHelper" block_coverage="92.00" line_coverage="85.71" blocks_covered="23" blocks_not_covered="2" lines_covered="12" lines_partially_covered="1" lines_not_covered="1">
+          <ranges>
+            <range source_id="5" start_line="102" end_line="102" start_column="9" end_column="10" covered="yes" />
+            <range source_id="5" start_line="106" end_line="106" start_column="13" end_column="56" covered="partial" />
+            <range source_id="5" start_line="107" end_line="107" start_column="17" end_column="33" covered="no" />
+            <range source_id="5" start_line="109" end_line="109" start_column="13" end_column="20" covered="yes" />
+            <range source_id="5" start_line="109" end_line="109" start_column="39" end_column="46" covered="yes" />
+            <range source_id="5" start_line="109" end_line="109" start_column="22" end_column="35" covered="yes" />
+            <range source_id="5" start_line="109" end_line="109" start_column="48" end_column="77" covered="yes" />
+            <range source_id="5" start_line="109" end_line="109" start_column="36" end_column="38" covered="yes" />
+            <range source_id="5" start_line="111" end_line="111" start_column="18" end_column="46" covered="yes" />
+            <range source_id="5" start_line="112" end_line="112" start_column="13" end_column="14" covered="yes" />
+            <range source_id="5" start_line="113" end_line="113" start_column="17" end_column="92" covered="yes" />
+            <range source_id="5" start_line="114" end_line="114" start_column="17" end_column="61" covered="yes" />
+            <range source_id="5" start_line="115" end_line="115" start_column="17" end_column="46" covered="yes" />
+            <range source_id="5" start_line="116" end_line="116" start_column="13" end_column="14" covered="yes" />
+            <range source_id="5" start_line="111" end_line="111" start_column="96" end_column="99" covered="yes" />
+            <range source_id="5" start_line="111" end_line="111" start_column="48" end_column="94" covered="yes" />
+            <range source_id="5" start_line="119" end_line="119" start_column="13" end_column="22" covered="yes" />
+            <range source_id="5" start_line="120" end_line="120" start_column="13" end_column="20" covered="yes" />
+            <range source_id="5" start_line="120" end_line="120" start_column="35" end_column="53" covered="yes" />
+            <range source_id="5" start_line="120" end_line="120" start_column="22" end_column="31" covered="yes" />
+            <range source_id="5" start_line="120" end_line="120" start_column="55" end_column="91" covered="yes" />
+            <range source_id="5" start_line="120" end_line="120" start_column="32" end_column="34" covered="yes" />
+            <range source_id="5" start_line="122" end_line="122" start_column="13" end_column="29" covered="yes" />
+            <range source_id="5" start_line="123" end_line="123" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="10588" token="0x600001f" name="CreateStringArrayFromListViewItems(System.Windows.Forms.ListView)" namespace="TestFormsApp.Scripts" type_name="TestHelper" block_coverage="100.00" line_coverage="100.00" blocks_covered="14" blocks_not_covered="0" lines_covered="5" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="5" start_line="126" end_line="126" start_column="9" end_column="10" covered="yes" />
+            <range source_id="5" start_line="127" end_line="127" start_column="13" end_column="56" covered="yes" />
+            <range source_id="5" start_line="128" end_line="128" start_column="13" end_column="20" covered="yes" />
+            <range source_id="5" start_line="128" end_line="128" start_column="43" end_column="57" covered="yes" />
+            <range source_id="5" start_line="128" end_line="128" start_column="22" end_column="39" covered="yes" />
+            <range source_id="5" start_line="128" end_line="128" start_column="59" end_column="83" covered="yes" />
+            <range source_id="5" start_line="128" end_line="128" start_column="40" end_column="42" covered="yes" />
+            <range source_id="5" start_line="129" end_line="129" start_column="13" end_column="39" covered="yes" />
+            <range source_id="5" start_line="130" end_line="130" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="10704" token="0x6000020" name="TestHelper()" namespace="TestFormsApp.Scripts" type_name="TestHelper" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="5" start_line="15" end_line="15" start_column="9" end_column="61" covered="yes" />
+          </ranges>
+        </function>
+        <function id="10968" token="0x6000028" name="MoveNext()" namespace="WorkSpaceSetUp.Scripts" type_name="TestCreateRemoveInteractionForm.&lt;CreateFileGroup_Strength_Test&gt;d__2" block_coverage="100.00" line_coverage="100.00" blocks_covered="13" blocks_not_covered="0" lines_covered="14" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="47" end_line="47" start_column="9" end_column="10" covered="yes" />
+            <range source_id="1" start_line="48" end_line="48" start_column="13" end_column="67" covered="yes" />
+            <range source_id="1" start_line="49" end_line="52" start_column="13" end_column="51" covered="yes" />
+            <range source_id="1" start_line="54" end_line="54" start_column="13" end_column="90" covered="yes" />
+            <range source_id="1" start_line="55" end_line="55" start_column="13" end_column="60" covered="yes" />
+            <range source_id="1" start_line="57" end_line="61" start_column="13" end_column="41" covered="yes" />
+            <range source_id="1" start_line="62" end_line="62" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="11252" token="0x600002b" name="MoveNext()" namespace="WorkSpaceSetUp.Scripts" type_name="TestCreateRemoveInteractionForm.&lt;RemoveFileGroup_Strength_Test&gt;d__3" block_coverage="100.00" line_coverage="100.00" blocks_covered="13" blocks_not_covered="0" lines_covered="14" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="72" end_line="72" start_column="9" end_column="10" covered="yes" />
+            <range source_id="1" start_line="73" end_line="73" start_column="13" end_column="67" covered="yes" />
+            <range source_id="1" start_line="74" end_line="77" start_column="13" end_column="51" covered="yes" />
+            <range source_id="1" start_line="79" end_line="79" start_column="13" end_column="90" covered="yes" />
+            <range source_id="1" start_line="80" end_line="80" start_column="13" end_column="60" covered="yes" />
+            <range source_id="1" start_line="82" end_line="86" start_column="13" end_column="41" covered="yes" />
+            <range source_id="1" start_line="87" end_line="87" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="11536" token="0x600002e" name="MoveNext()" namespace="WorkSpaceSetUp.Scripts" type_name="TestCreateRemoveInteractionForm.&lt;RemoveFilePath_Strength_Test&gt;d__4" block_coverage="100.00" line_coverage="100.00" blocks_covered="10" blocks_not_covered="0" lines_covered="25" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="98" end_line="98" start_column="9" end_column="10" covered="yes" />
+            <range source_id="1" start_line="99" end_line="99" start_column="13" end_column="67" covered="yes" />
+            <range source_id="1" start_line="100" end_line="100" start_column="13" end_column="89" covered="yes" />
+            <range source_id="1" start_line="101" end_line="102" start_column="13" end_column="76" covered="yes" />
+            <range source_id="1" start_line="104" end_line="122" start_column="13" end_column="41" covered="yes" />
+            <range source_id="1" start_line="123" end_line="123" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="11875" token="0x6000031" name="&lt;AsyncInitialize_Throw_Test&gt;b__0()" namespace="WorkSpaceSetUp.Scripts" type_name="TestInitInteractionForm.&lt;&gt;c__DisplayClass2_0" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="49" end_line="49" start_column="70" end_column="123" covered="yes" />
+          </ranges>
+        </function>
+        <function id="12144" token="0x6000039" name="MoveNext()" namespace="WorkSpaceSetUp.Scripts" type_name="TestInitInteractionForm.&lt;AsyncInitialize_Corrupt_Test&gt;d__5" block_coverage="100.00" line_coverage="100.00" blocks_covered="12" blocks_not_covered="0" lines_covered="13" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="106" end_line="106" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="107" end_line="107" start_column="13" end_column="67" covered="yes" />
+            <range source_id="2" start_line="108" end_line="111" start_column="13" end_column="57" covered="yes" />
+            <range source_id="2" start_line="113" end_line="113" start_column="13" end_column="110" covered="yes" />
+            <range source_id="2" start_line="115" end_line="119" start_column="13" end_column="41" covered="yes" />
+            <range source_id="2" start_line="120" end_line="120" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="12412" token="0x600003c" name="MoveNext()" namespace="WorkSpaceSetUp.Scripts" type_name="TestInitInteractionForm.&lt;AsyncInitialize_OpenFile_Test&gt;d__4" block_coverage="86.96" line_coverage="95.00" blocks_covered="20" blocks_not_covered="3" lines_covered="19" lines_partially_covered="0" lines_not_covered="1">
+          <ranges>
+            <range source_id="2" start_line="77" end_line="77" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="78" end_line="78" start_column="13" end_column="67" covered="yes" />
+            <range source_id="2" start_line="79" end_line="82" start_column="13" end_column="51" covered="yes" />
+            <range source_id="2" start_line="84" end_line="84" start_column="13" end_column="37" covered="yes" />
+            <range source_id="2" start_line="85" end_line="86" start_column="13" end_column="47" covered="yes" />
+            <range source_id="2" start_line="87" end_line="87" start_column="13" end_column="43" covered="yes" />
+            <range source_id="2" start_line="88" end_line="88" start_column="17" end_column="53" covered="yes" />
+            <range source_id="2" start_line="90" end_line="90" start_column="17" end_column="66" covered="no" />
+            <range source_id="2" start_line="92" end_line="92" start_column="13" end_column="110" covered="yes" />
+            <range source_id="2" start_line="94" end_line="99" start_column="13" end_column="41" covered="yes" />
+            <range source_id="2" start_line="100" end_line="100" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="12828" token="0x600003f" name="MoveNext()" namespace="WorkSpaceSetUp.Scripts" type_name="TestInitInteractionForm.&lt;AsyncInitialize_Success_Test&gt;d__3" block_coverage="100.00" line_coverage="100.00" blocks_covered="12" blocks_not_covered="0" lines_covered="13" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="57" end_line="57" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="58" end_line="58" start_column="13" end_column="67" covered="yes" />
+            <range source_id="2" start_line="59" end_line="62" start_column="13" end_column="51" covered="yes" />
+            <range source_id="2" start_line="64" end_line="64" start_column="13" end_column="110" covered="yes" />
+            <range source_id="2" start_line="66" end_line="70" start_column="13" end_column="41" covered="yes" />
+            <range source_id="2" start_line="71" end_line="71" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="13176" token="0x6000044" name="MoveNext()" namespace="WorkSpaceSetUp.Scripts" type_name="TestCreateRemoveInteractionForm.&lt;&gt;c__DisplayClass2_0.&lt;&lt;CreateFileGroup_Strength_Test&gt;b__0&gt;d" block_coverage="100.00" line_coverage="100.00" blocks_covered="7" blocks_not_covered="0" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="58" end_line="58" start_column="13" end_column="14" covered="yes" />
+            <range source_id="1" start_line="59" end_line="59" start_column="17" end_column="138" covered="yes" />
+            <range source_id="1" start_line="60" end_line="60" start_column="17" end_column="50" covered="yes" />
+            <range source_id="1" start_line="61" end_line="61" start_column="13" end_column="14" covered="yes" />
+          </ranges>
+        </function>
+        <function id="13464" token="0x6000047" name="MoveNext()" namespace="WorkSpaceSetUp.Scripts" type_name="TestCreateRemoveInteractionForm.&lt;&gt;c__DisplayClass3_0.&lt;&lt;RemoveFileGroup_Strength_Test&gt;b__0&gt;d" block_coverage="100.00" line_coverage="100.00" blocks_covered="7" blocks_not_covered="0" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="83" end_line="83" start_column="13" end_column="14" covered="yes" />
+            <range source_id="1" start_line="84" end_line="84" start_column="17" end_column="134" covered="yes" />
+            <range source_id="1" start_line="85" end_line="85" start_column="17" end_column="50" covered="yes" />
+            <range source_id="1" start_line="86" end_line="86" start_column="13" end_column="14" covered="yes" />
+          </ranges>
+        </function>
+        <function id="13752" token="0x600004a" name="MoveNext()" namespace="WorkSpaceSetUp.Scripts" type_name="TestCreateRemoveInteractionForm.&lt;&gt;c__DisplayClass4_0.&lt;&lt;RemoveFilePath_Strength_Test&gt;b__0&gt;d" block_coverage="100.00" line_coverage="100.00" blocks_covered="16" blocks_not_covered="0" lines_covered="15" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="105" end_line="105" start_column="13" end_column="14" covered="yes" />
+            <range source_id="1" start_line="106" end_line="106" start_column="17" end_column="64" covered="yes" />
+            <range source_id="1" start_line="107" end_line="107" start_column="24" end_column="55" covered="yes" />
+            <range source_id="1" start_line="108" end_line="108" start_column="17" end_column="18" covered="yes" />
+            <range source_id="1" start_line="110" end_line="110" start_column="21" end_column="39" covered="yes" />
+            <range source_id="1" start_line="111" end_line="111" start_column="21" end_column="22" covered="yes" />
+            <range source_id="1" start_line="112" end_line="112" start_column="25" end_column="135" covered="yes" />
+            <range source_id="1" start_line="113" end_line="113" start_column="25" end_column="102" covered="yes" />
+            <range source_id="1" start_line="114" end_line="114" start_column="25" end_column="130" covered="yes" />
+            <range source_id="1" start_line="115" end_line="115" start_column="21" end_column="22" covered="yes" />
+            <range source_id="1" start_line="117" end_line="117" start_column="21" end_column="122" covered="yes" />
+            <range source_id="1" start_line="118" end_line="118" start_column="21" end_column="54" covered="yes" />
+            <range source_id="1" start_line="120" end_line="120" start_column="21" end_column="31" covered="yes" />
+            <range source_id="1" start_line="121" end_line="121" start_column="17" end_column="18" covered="yes" />
+            <range source_id="1" start_line="122" end_line="122" start_column="13" end_column="14" covered="yes" />
+          </ranges>
+        </function>
+        <function id="14320" token="0x600004d" name="MoveNext()" namespace="WorkSpaceSetUp.Scripts" type_name="TestInitInteractionForm.&lt;&gt;c__DisplayClass3_0.&lt;&lt;AsyncInitialize_Success_Test&gt;b__0&gt;d" block_coverage="100.00" line_coverage="100.00" blocks_covered="7" blocks_not_covered="0" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="67" end_line="67" start_column="13" end_column="14" covered="yes" />
+            <range source_id="2" start_line="68" end_line="68" start_column="17" end_column="109" covered="yes" />
+            <range source_id="2" start_line="69" end_line="69" start_column="17" end_column="50" covered="yes" />
+            <range source_id="2" start_line="70" end_line="70" start_column="13" end_column="14" covered="yes" />
+          </ranges>
+        </function>
+        <function id="14596" token="0x6000050" name="MoveNext()" namespace="WorkSpaceSetUp.Scripts" type_name="TestInitInteractionForm.&lt;&gt;c__DisplayClass4_0.&lt;&lt;AsyncInitialize_OpenFile_Test&gt;b__0&gt;d" block_coverage="100.00" line_coverage="100.00" blocks_covered="8" blocks_not_covered="0" lines_covered="5" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="95" end_line="95" start_column="13" end_column="14" covered="yes" />
+            <range source_id="2" start_line="96" end_line="96" start_column="17" end_column="109" covered="yes" />
+            <range source_id="2" start_line="97" end_line="97" start_column="17" end_column="50" covered="yes" />
+            <range source_id="2" start_line="98" end_line="98" start_column="17" end_column="30" covered="yes" />
+            <range source_id="2" start_line="99" end_line="99" start_column="13" end_column="14" covered="yes" />
+          </ranges>
+        </function>
+        <function id="14888" token="0x6000053" name="MoveNext()" namespace="WorkSpaceSetUp.Scripts" type_name="TestInitInteractionForm.&lt;&gt;c__DisplayClass5_0.&lt;&lt;AsyncInitialize_Corrupt_Test&gt;b__0&gt;d" block_coverage="100.00" line_coverage="100.00" blocks_covered="7" blocks_not_covered="0" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="116" end_line="116" start_column="13" end_column="14" covered="yes" />
+            <range source_id="2" start_line="117" end_line="117" start_column="17" end_column="109" covered="yes" />
+            <range source_id="2" start_line="118" end_line="118" start_column="17" end_column="50" covered="yes" />
+            <range source_id="2" start_line="119" end_line="119" start_column="13" end_column="14" covered="yes" />
+          </ranges>
+        </function>
+        <function id="15164" token="0x6000056" name="MoveNext()" namespace="WorkSpaceSetUp.Scripts" type_name="TestSelectInteractionForm.&lt;&gt;c__DisplayClass6_0.&lt;&lt;EndUpdateFileGroupName_Strength_Test&gt;b__0&gt;d" block_coverage="100.00" line_coverage="100.00" blocks_covered="7" blocks_not_covered="0" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="3" start_line="142" end_line="142" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="143" end_line="143" start_column="17" end_column="132" covered="yes" />
+            <range source_id="3" start_line="144" end_line="144" start_column="17" end_column="50" covered="yes" />
+            <range source_id="3" start_line="145" end_line="145" start_column="13" end_column="14" covered="yes" />
+          </ranges>
+        </function>
+      </functions>
+      <source_files>
+        <source_file id="1" path="D:\Programming\NetStuff\WorkSpaceSetUp\TestFormsApp\Scripts\TestCreateRemoveInteractionForm.cs" checksum_type="SHA256" checksum="BDC4765DD6F28EF8CE383EF127EE73C0700601E50DEE309C613F1A299874A31B" />
+        <source_file id="2" path="D:\Programming\NetStuff\WorkSpaceSetUp\TestFormsApp\Scripts\TestInitInteractionForm.cs" checksum_type="SHA256" checksum="241C60BBAAD9370FD260791A36B5FBE4F2B26DE9AACBA3B987E1D021508AC55E" />
+        <source_file id="3" path="D:\Programming\NetStuff\WorkSpaceSetUp\TestFormsApp\Scripts\TestSelectInteractionForm.cs" checksum_type="SHA256" checksum="E17C399EDD396295D41222AB718B34141BC17DE6FAD61CDC86CCC0E1ED892BD7" />
+        <source_file id="4" path="D:\Programming\NetStuff\WorkSpaceSetUp\TestFormsApp\Scripts\DummyForm.cs" checksum_type="SHA256" checksum="0D9EC96E4BAADDF9569C53F266A44FCF461F61CC623507291761ADBF572022A4" />
+        <source_file id="5" path="D:\Programming\NetStuff\WorkSpaceSetUp\TestFormsApp\Scripts\TestHelper.cs" checksum_type="SHA256" checksum="C009A17B0BC02F4BB269391A36EDF1996AE8E21E6670B009E06149BCECA26A68" />
+      </source_files>
+      <skipped_functions>
+        <skipped_function id="8272" original_id="8272" token="0x6000001" name="Main(string[])" type_name="AutoGeneratedProgram" reason="attribute_excluded" />
+      </skipped_functions>
+    </module>
+  </modules>
+  <skipped_modules>
+    <skipped_module name="system.private.xml.linq.dll" path="system.private.xml.linq.dll" reason="path_is_excluded" />
+    <skipped_module name="system.collections.specialized.dll" path="system.collections.specialized.dll" reason="path_is_excluded" />
+    <skipped_module name="system.xml.xdocument.dll" path="system.xml.xdocument.dll" reason="path_is_excluded" />
+    <skipped_module name="system.numerics.vectors.dll" path="system.numerics.vectors.dll" reason="path_is_excluded" />
+    <skipped_module name="system.data.common.dll" path="system.data.common.dll" reason="path_is_excluded" />
+    <skipped_module name="newtonsoft.json.dll" path="newtonsoft.json.dll" reason="path_is_excluded" />
+    <skipped_module name="system.drawing.common.dll" path="system.drawing.common.dll" reason="path_is_excluded" />
+    <skipped_module name="system.reflection.emit.ilgeneration.dll" path="system.reflection.emit.ilgeneration.dll" reason="path_is_excluded" />
+    <skipped_module name="system.io.filesystem.dll" path="system.io.filesystem.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.loader.dll" path="system.runtime.loader.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.visualstudio.testplatform.objectmodel.dll" path="microsoft.visualstudio.testplatform.objectmodel.dll" reason="path_is_excluded" />
+    <skipped_module name="system.memory.dll" path="system.memory.dll" reason="path_is_excluded" />
+    <skipped_module name="system.net.webclient.dll" path="system.net.webclient.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.testplatform.platformabstractions.dll" path="microsoft.testplatform.platformabstractions.dll" reason="path_is_excluded" />
+    <skipped_module name="system.private.datacontractserialization.dll" path="system.private.datacontractserialization.dll" reason="path_is_excluded" />
+    <skipped_module name="system.reflection.emit.lightweight.dll" path="system.reflection.emit.lightweight.dll" reason="path_is_excluded" />
+    <skipped_module name="system.reflection.primitives.dll" path="system.reflection.primitives.dll" reason="path_is_excluded" />
+    <skipped_module name="netstandard.dll" path="netstandard.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.serialization.json.dll" path="system.runtime.serialization.json.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.interopservices.runtimeinformation.dll" path="system.runtime.interopservices.runtimeinformation.dll" reason="path_is_excluded" />
+    <skipped_module name="system.xml.xmlserializer.dll" path="system.xml.xmlserializer.dll" reason="path_is_excluded" />
+    <skipped_module name="system.xml.readerwriter.dll" path="system.xml.readerwriter.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.testplatform.coreutilities.dll" path="microsoft.testplatform.coreutilities.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.numerics.dll" path="system.runtime.numerics.dll" reason="path_is_excluded" />
+    <skipped_module name="system.private.uri.dll" path="system.private.uri.dll" reason="path_is_excluded" />
+    <skipped_module name="system.net.primitives.dll" path="system.net.primitives.dll" reason="path_is_excluded" />
+    <skipped_module name="system.collections.immutable.dll" path="system.collections.immutable.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.win32.primitives.dll" path="microsoft.win32.primitives.dll" reason="path_is_excluded" />
+    <skipped_module name="system.threading.overlapped.dll" path="system.threading.overlapped.dll" reason="path_is_excluded" />
+    <skipped_module name="system.diagnostics.tracing.dll" path="system.diagnostics.tracing.dll" reason="path_is_excluded" />
+    <skipped_module name="accessibility.dll" path="accessibility.dll" reason="path_is_excluded" />
+    <skipped_module name="system.threading.thread.dll" path="system.threading.thread.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.serialization.xml.dll" path="system.runtime.serialization.xml.dll" reason="path_is_excluded" />
+    <skipped_module name="system.linq.dll" path="system.linq.dll" reason="path_is_excluded" />
+    <skipped_module name="system.text.encoding.extensions.dll" path="system.text.encoding.extensions.dll" reason="path_is_excluded" />
+    <skipped_module name="system.threading.dll" path="system.threading.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.visualstudio.testplatform.testframework.dll" path="microsoft.visualstudio.testplatform.testframework.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.visualstudio.testplatform.mstestadapter.platformservices.dll" path="microsoft.visualstudio.testplatform.mstestadapter.platformservices.dll" reason="path_is_excluded" />
+    <skipped_module name="system.private.windows.core.dll" path="system.private.windows.core.dll" reason="path_is_excluded" />
+    <skipped_module name="system.componentmodel.dll" path="system.componentmodel.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.visualstudio.testplatform.testframework.extensions.dll" path="microsoft.visualstudio.testplatform.testframework.extensions.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.testplatform.crossplatengine.dll" path="microsoft.testplatform.crossplatengine.dll" reason="path_is_excluded" />
+    <skipped_module name="system.private.xml.dll" path="system.private.xml.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.interopservices.dll" path="system.runtime.interopservices.dll" reason="path_is_excluded" />
+    <skipped_module name="system.objectmodel.dll" path="system.objectmodel.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.testplatform.communicationutilities.dll" path="microsoft.testplatform.communicationutilities.dll" reason="path_is_excluded" />
+    <skipped_module name="testhost.dll" path="testhost.dll" reason="path_is_excluded" />
+    <skipped_module name="system.windows.forms.dll" path="system.windows.forms.dll" reason="path_is_excluded" />
+    <skipped_module name="system.linq.expressions.dll" path="system.linq.expressions.dll" reason="path_is_excluded" />
+    <skipped_module name="system.collections.dll" path="system.collections.dll" reason="path_is_excluded" />
+    <skipped_module name="system.net.sockets.dll" path="system.net.sockets.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.serialization.formatters.dll" path="system.runtime.serialization.formatters.dll" reason="path_is_excluded" />
+    <skipped_module name="system.diagnostics.tracesource.dll" path="system.diagnostics.tracesource.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.intrinsics.dll" path="system.runtime.intrinsics.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.testplatform.adapterutilities.dll" path="microsoft.testplatform.adapterutilities.dll" reason="path_is_excluded" />
+    <skipped_module name="system.componentmodel.typeconverter.dll" path="system.componentmodel.typeconverter.dll" reason="path_is_excluded" />
+    <skipped_module name="system.diagnostics.textwritertracelistener.dll" path="system.diagnostics.textwritertracelistener.dll" reason="path_is_excluded" />
+    <skipped_module name="system.io.memorymappedfiles.dll" path="system.io.memorymappedfiles.dll" reason="path_is_excluded" />
+    <skipped_module name="system.configuration.configurationmanager.dll" path="system.configuration.configurationmanager.dll" reason="path_is_excluded" />
+    <skipped_module name="system.diagnostics.debug.dll" path="system.diagnostics.debug.dll" reason="path_is_excluded" />
+    <skipped_module name="system.console.dll" path="system.console.dll" reason="path_is_excluded" />
+    <skipped_module name="workspacesetup.dll" path="workspacesetup.dll" reason="no_symbols" />
+    <skipped_module name="system.runtime.extensions.dll" path="system.runtime.extensions.dll" reason="path_is_excluded" />
+    <skipped_module name="system.security.cryptography.dll" path="system.security.cryptography.dll" reason="path_is_excluded" />
+    <skipped_module name="system.private.corelib.dll" path="system.private.corelib.dll" reason="path_is_excluded" />
+    <skipped_module name="system.text.regularexpressions.dll" path="system.text.regularexpressions.dll" reason="path_is_excluded" />
+    <skipped_module name="system.collections.nongeneric.dll" path="system.collections.nongeneric.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.visualstudio.testplatform.common.dll" path="microsoft.visualstudio.testplatform.common.dll" reason="path_is_excluded" />
+    <skipped_module name="system.windows.forms.primitives.dll" path="system.windows.forms.primitives.dll" reason="path_is_excluded" />
+    <skipped_module name="system.componentmodel.eventbasedasync.dll" path="system.componentmodel.eventbasedasync.dll" reason="path_is_excluded" />
+    <skipped_module name="system.drawing.primitives.dll" path="system.drawing.primitives.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.dll" path="system.runtime.dll" reason="path_is_excluded" />
+    <skipped_module name="system.diagnostics.diagnosticsource.dll" path="system.diagnostics.diagnosticsource.dll" reason="path_is_excluded" />
+    <skipped_module name="system.resources.resourcemanager.dll" path="system.resources.resourcemanager.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.serialization.primitives.dll" path="system.runtime.serialization.primitives.dll" reason="path_is_excluded" />
+    <skipped_module name="system.threading.threadpool.dll" path="system.threading.threadpool.dll" reason="path_is_excluded" />
+    <skipped_module name="system.collections.concurrent.dll" path="system.collections.concurrent.dll" reason="path_is_excluded" />
+    <skipped_module name="system.reflection.metadata.dll" path="system.reflection.metadata.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.visualstudio.testplatform.mstest.testadapter.dll" path="microsoft.visualstudio.testplatform.mstest.testadapter.dll" reason="path_is_excluded" />
+    <skipped_module name="system.diagnostics.process.dll" path="system.diagnostics.process.dll" reason="path_is_excluded" />
+    <skipped_module name="system.componentmodel.primitives.dll" path="system.componentmodel.primitives.dll" reason="path_is_excluded" />
+  </skipped_modules>
+</results>
