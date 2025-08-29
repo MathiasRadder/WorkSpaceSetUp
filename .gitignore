@@ -130,4 +130,4 @@ nunit-*.xml
 .vs/WorkSpaceSetUp/v17/DocumentLayout.json
 JsonSave.json
 WorkSpaceSetUp/SaveFolder/JsonSave.json
-WorkSpaceSetUp/CoverageReport/
+CoverageReport/*
